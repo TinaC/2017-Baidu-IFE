@@ -3,6 +3,10 @@
     padding:0px;
 }
 
-.center-image {
-    
+.center-container {
+    display: flex;
+    /* item在主轴的对齐方式 */
+    justify-content: center;
+    /* item在交叉轴的对齐方式 */
+    align-self: center;
 }
